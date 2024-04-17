@@ -1,0 +1,566 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Dancing Script", cursive;
+    
+}
+
+.body{
+   align-items: center;
+   justify-content: center;
+   
+}
+
+
+/*navbar*/
+
+.container{
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.navbar{
+    height: auto;
+    width: 95%;
+    margin: auto;
+    border-bottom: 1px solid black;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    text-align: center;
+    
+    
+}
+
+
+.logo img{
+    height: 40px;
+}
+
+
+
+.navlist{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+}
+
+.navlist li{
+    list-style: none;
+    text-decoration: none;
+}
+
+.navlist a{
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+}
+
+.navlist a:hover{
+    color: crimson;
+    text-decoration: none;
+}
+
+.navlist.fa-solid{
+    font-size: 15px;
+}
+
+
+
+/*hero-section*/
+
+.herosection{
+     
+     background-size: cover;
+     display: flex;
+     align-items: flex-end;
+     justify-content: center;
+     width: 80%;
+     margin-left: auto;
+     margin-right: auto;
+     
+     
+}
+.carousel-inner{
+    border-radius: 10px;
+
+}
+
+.hero-msg{
+    color: chocolate;
+    background-color:white;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 25px;
+    font-size: 1.75rem;
+}
+
+.hero-msg a:hover{
+    color: crimson;
+    text-decoration: none;
+}
+
+
+
+
+/*best seller*/
+
+.best-sellers{
+
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding:15px 9%;
+   padding-bottom: 100px;
+
+}
+
+.best-sellers-cat{
+   align-items: center;
+}
+
+.btn{
+margin-top: 10px;
+   display: inline-block;
+   background:#333;
+   color:#fff;
+   font-size: 17px;
+   border-radius: 5px;
+   padding: 8px 25px;
+
+}
+
+.btn:hover{
+
+letter-spacing: 1px;
+
+}
+
+.box:hover{
+   box-shadow: 0 10px 15px rgba(0,0,0,.3);
+   transform: scale(1.03);
+}
+
+.box{
+   border: 1.85px solid black;
+   word-wrap: break-word;
+   width: 200px;
+   margin-bottom: 10px;
+   background-color:transparent;
+   padding: 20px 0px 15px;
+   background-size: cover;
+   font-family: "Cedarville Cursive", cursive;
+   font-weight: 400;
+   font-style: normal;
+   
+}
+  
+
+.box1-img{
+   height: 200px;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+
+.box2-img{
+   height: 200px;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+
+.box3-img{
+   height: 200px;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+.box4-img{
+   height: 200px;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+@media (max-width:768px){
+   .container{
+       padding:20px;
+   }
+}
+
+
+
+
+ /*categories*/
+
+
+ .msg{
+
+    color:black;
+    background-color:rgb(181, 26, 26);
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 25px;
+    font-size: 1.75rem;
+
+
+ }
+
+ .msg a:hover{
+    color: chocolate;
+    text-decoration: none;
+ }
+
+
+
+
+ .msg1{
+
+    color:black;
+    background-color:white;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 25px;
+    font-size: 1.75rem;
+
+ }
+
+
+ .msg1 div:hover{
+    color:lightskyblue;
+    text-decoration: none;
+ }
+ 
+ /*brands*/
+
+ @keyframes scroll{
+    0%{
+      transform: translateX(0);
+    }
+
+    100%{
+      transform: translateX(calc(-80px * 7));
+    }
+
+ }
+
+.slider{
+   height: 100px;
+   margin: auto;
+   overflow: hidden;
+   position: relative;
+   width: 50%;
+}
+
+.slider .slide-track{
+   animation: scroll 10s linear infinite;
+   display: flex;
+   width: calc(80px * 14);
+}
+
+.slider .slide{
+   height: 100px;
+   width: 50%;
+}
+
+/*Follow-us*/
+
+ .social-links{
+
+   display: flex;
+   align-items: center;
+   overflow: hidden;
+   justify-content: center;
+   
+}
+
+.social-links a{
+   width: 80px;
+   height: 80px;
+   text-align: center;
+   text-decoration: none;
+   color: #000;
+   box-shadow: 0 0 20px 10px rgba(0,0,0,0.05);
+   margin: 0 30px;
+   border-radius: 50%;
+   position: relative;
+   overflow: hidden;
+   transition: transform 0.5s;
+}
+
+.social-links a.ff{
+   font-size: 30px;
+   line-height: 80px;
+   position: relative;
+   z-index: 10;
+   transition: 0.5s;
+}
+
+.social-links a::after{
+   content: '';
+   width: 100%;
+   height: 100%;
+   top: -90px;
+   left: 0;
+   position: absolute;
+   transition: 0.5s;
+
+}
+
+.social-links a:hover::after{
+   top: 0;
+}
+
+.social-links a:hover .ff{
+  color: chocolate;
+}
+.social-links a:hover{
+   transform: translateY(-10px);
+}
+
+
+
+/*footer*/
+
+footer{
+   background:grey;
+   padding-top: 50px;
+   width: 1349px;
+}
+
+.container-f{
+   width: 1140px;
+   margin: auto;
+   display: flex;
+   justify-content: center;
+}
+.footer-content{
+   width: 33.3%;
+}
+h3{
+   font-size: 28px;
+   margin-bottom: 15px;
+   text-align: center;
+}
+.footer-content p{
+   width:190px;
+   margin: auto;
+   padding: 7px;
+}
+.footer-content ul{
+   text-align: center;
+}
+.list{
+   padding: 0;
+}
+.list li{
+   width: auto;
+   text-align: center;
+   list-style-type:none;
+   padding: 7px;
+   position: relative;
+   text-decoration: none;
+}
+.list li::before{
+   content: '';
+   position: absolute;
+   transform: translate(-50%,-50%);
+   left: 50%;
+   top: 100%;
+   width: 0;
+   height: 2px;
+   background: #f18930;
+   transition-duration: .5s;
+}
+.list li.a{
+
+   text-decoration: none;
+   background-color: #f18930;
+   color: #000;
+}
+
+.li li.a:hover{
+   color: #f18930;
+}
+.list li:hover{
+   color: #f18930;
+}
+
+.list li:hover::before{
+   width: 70px;
+}
+.social-icons{
+   text-align: center;
+   padding: 0;
+}
+.social-icons li{
+   display: inline-block;
+   text-align: center;
+   padding: 5px;
+}
+.social-icons i{
+   color: white;
+   font-size: 25px;
+}
+a{
+   text-decoration: none;
+}
+a:hover{
+   color: #f18930;
+}
+.social-icons i:hover{
+   color: #f18930;
+}
+.bottom-bar{
+   background: #f18930;
+   text-align: center;
+   padding: 10px 0;
+   margin-top: 50px;
+}
+.bottom-bar p{
+   color: #343434;
+   margin: 0;
+   font-size: 16px;
+   padding: 7px;
+}
+
+
+/*back to top*/
+
+.back-to-top {
+   position: fixed;
+   right: 30px;
+   bottom: 30px;
+   display: flex;
+   width: 45px;
+   height: 45px;
+   align-items: center;
+   justify-content: center;
+   transition: 1s;
+   z-index: 99;
+   color: #222;
+}
+
+/*** Button Start ***/
+.btn {
+   font-weight: 600;
+   transition: 1s;
+   color: #222;
+}
+
+.btn-square {
+   width: 32px;
+   height: 32px;
+}
+
+.btn-sm-square {
+   width: 34px;
+   height: 34px;
+}
+
+.btn-md-square {
+   width: 44px;
+   height: 44px;
+}
+
+.btn-lg-square {
+   width: 56px;
+   height: 56px;
+}
+
+.btn-square,
+.btn-sm-square,
+.btn-md-square,
+.btn-lg-square {
+   padding: 0;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-weight: normal;
+}
+
+.btn.border-secondary {
+   transition: 1s;
+}
+
+.btn.border-secondary:hover {
+   background: var(--bs-secondary) !important;
+   color:#000
+}
+
+
+/*add to cart*/
+
+.price{
+   font-size: 1rem;
+   color:#444;
+   padding: auto;
+}
+
+
+.buttons{
+   display: flex;
+   gap:0.5rem;
+   flex-wrap: wrap;
+   margin-top: 1rem;
+   padding: auto;
+}
+
+
+
+.buttons a{
+   flex:1 1 16rem;
+   padding:0.5rem;
+   font-size: 0.8rem;
+   color:#444;
+   border:.1rem solid #444;
+}
+
+
+.buttons a.cart{
+   background: #444;
+   color:#fff;
+}
+
+.buttons a.cart:hover{
+   background: #111;
+}
+
+
+.buttons a.buy:hover{
+   background: #444;
+   color:#fff;
+}
+
+/**About-us
+.Ab-1-img{
+
+   height: 280px;
+   background-size: cover;
+   background-repeat: no-repeat;
+
+}
+
+**/

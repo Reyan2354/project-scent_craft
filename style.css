@@ -11,10 +11,15 @@
     
 }
 
+html{
+
+    height: -webkit-fill-available;
+}
+
 .body{
    align-items: center;
    justify-content: center;
-   
+   height: -webkit-fill-available;
 }
 
 

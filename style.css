@@ -471,7 +471,7 @@ a:hover{
 /*** Button Start ***/
 .btn {
    font-weight: 600;
-   transition: 1s;
+   transition: 5s;
    color: #222;
 }
 
@@ -507,7 +507,7 @@ a:hover{
 }
 
 .btn.border-secondary {
-   transition: 1s;
+   transition: 5s;
 }
 
 .btn.border-secondary:hover {

@@ -22,7 +22,8 @@ Welcome to our exquisite world of fragrances, where each scent tells a unique st
 6. Azure Role Based access Control(RBAC)
 
 # Project-Description
-Welcome to our exquisite world of fragrances, where each scent tells a unique story and evokes unforgettable emotions. Dive into the realm of luxury and sophistication with our collection of meticulously crafted perfumes, designed to captivate your senses and leave a lasting impression.<br>
+Welcome to our exquisite world of fragrances, where each scent tells a unique story and evokes unforgettable emotions. Dive into the realm of luxury and sophistication with our collection of meticulously crafted perfumes, designed to captivate your senses and leave a lasting impression.
+<br>
 Indulge in the artistry of scent as you explore our curated selection of fragrances, each bottle a masterpiece of olfactory excellence. From delicate florals to seductive orientals, we offer a diverse range of scents to suit every mood and occasion.
 Discover the essence of elegance with our signature perfumes, expertly blended using the finest ingredients sourced from around the globe. Immerse yourself in the allure of our exclusive creations, each one a symphony of notes that dance harmoniously on the skin.
 Whether you're seeking a scent that exudes confidence and charisma or one that whispers of romance and intrigue, our collection has something for everyone. Elevate your personal style and make a statement with a fragrance that speaks volumes without saying a word.

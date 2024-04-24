@@ -22,6 +22,7 @@ Welcome to our exquisite world of fragrances, where each scent tells a unique st
 6. Azure Role Based access Control(RBAC)
 
 # Project Statement
+Now a days there are a lot of perfumes available in the market but do you know is these perfumes which are present in the market are chemical and toxic free. some perfumes also causes body iching and various problems and mainly these perfumes are highly concentrated with alcohol. We don't use alcohol in our perfumes and our perfumes and our perfumes are chemical and toxin free. If you want to enjoy the fragrance of perfumes without any effects on your body then try our perfumes you will definately love it
 
 # Project-Description
 Welcome to our exquisite world of fragrances, where each scent tells a unique story and evokes unforgettable emotions. Dive into the realm of luxury and sophistication with our collection of meticulously crafted perfumes, designed to captivate your senses and leave a lasting impression.

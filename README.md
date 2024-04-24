@@ -21,6 +21,8 @@ Welcome to our exquisite world of fragrances, where each scent tells a unique st
 5. chatbot
 6. Azure Role Based access Control(RBAC)
 
+# Project Statement
+
 # Project-Description
 Welcome to our exquisite world of fragrances, where each scent tells a unique story and evokes unforgettable emotions. Dive into the realm of luxury and sophistication with our collection of meticulously crafted perfumes, designed to captivate your senses and leave a lasting impression.
 <br>
@@ -38,6 +40,55 @@ Azure Backup Service:- Azure Backup Service by Microsoft safeguards critical dat
 Azure Chatbot :- The Azure AI Language Chatbot is a cutting-edge conversational agent powered by Microsoft's Azure platform. Leveraging advanced natural language processing capabilities, it facilitates dynamic and context-aware interactions. This intelligent chatbot employs machine learning algorithms to comprehend user queries, providing personalized responses and assistance across diverse domains. Seamlessly integrating with Azure services, it ensures scalability and reliability.
 
 # Screenshot’s:
+# Storage Account
+
+![storage-account](https://github.com/Reyan2354/project-scent_craft/assets/144935640/5be4d9de-ca6f-4e7c-b819-8574520f9839)
+
+# Static website
+![static-website](https://github.com/Reyan2354/project-scent_craft/assets/144935640/b2774483-8e15-4dd7-bbf5-bbf72fc55861)
+
+# container
+![web-container](https://github.com/Reyan2354/project-scent_craft/assets/144935640/7d4c0803-f4ff-4b05-8690-5217cc94ea57)
+
+# Backup vault
+![backup-vault](https://github.com/Reyan2354/project-scent_craft/assets/144935640/164e21f4-ef84-4f0c-854d-d257ebc81b4b)
+
+# Role Assignment
+![Role Assignment](https://github.com/Reyan2354/project-scent_craft/assets/144935640/25536899-eee1-44ea-bcb5-ca287e698594)
+
+# Backup Policy
+![Backup-policy](https://github.com/Reyan2354/project-scent_craft/assets/144935640/3e7ff030-7558-4ed8-a67e-f9b560612c92)
+
+# Azure Bot
+![Azure-bot](https://github.com/Reyan2354/project-scent_craft/assets/144935640/d715b1ef-24d6-484a-b830-00e22dd8c41e)
+
+# Test in web
+![test in webchat](https://github.com/Reyan2354/project-scent_craft/assets/144935640/ecfea909-19f0-4789-b6ec-8eeeeaaa7a5f)
+
+# Resource Visualizer
+![Resource Visualizer](https://github.com/Reyan2354/project-scent_craft/assets/144935640/b35c3368-994c-44a5-a241-3eea76ecdd9f)
+
+# Description
+Here I am attaching the working SS of our website
+
+# Live project
+
+# Home page
+![homepage](https://github.com/Reyan2354/project-scent_craft/assets/144935640/9d083529-ba6d-4b58-9fa8-7533a55dafbc)
+
+# About us
+![Aboutus](https://github.com/Reyan2354/project-scent_craft/assets/144935640/61254bbb-a183-49fa-886d-c1831035a738)
+
+# Categories
+![categories](https://github.com/Reyan2354/project-scent_craft/assets/144935640/bb789f49-3647-4d02-8f30-9920b49bfba3)
+
+# Brands
+![Brands](https://github.com/Reyan2354/project-scent_craft/assets/144935640/83fa2a51-a060-4615-9654-2e5676e70688)
+
+
+
+
+
 
 
 

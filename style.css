@@ -463,7 +463,7 @@ a:hover{
    height: 45px;
    align-items: center;
    justify-content: center;
-   transition: 1s;
+   transition: 5s;
    z-index: 99;
    color: #222;
 }
